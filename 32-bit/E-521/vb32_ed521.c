@@ -1,4 +1,4 @@
-/* Test program for ed521.c constant-time variable-base scalar multiplication
+/* Test program for constant-time variable-base scalar multiplication for E-521
  This curve is recommended by Daniel J. Bernstein and Tanja Lange at http://safecurves.cr.yp.to
  Curve Equation :: x^2+y^2 = 1-376014x^2y^2 where d=-376014
  Uses Bernstein et al.s point multiplication method from Curve41417 paper

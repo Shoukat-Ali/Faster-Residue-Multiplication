@@ -1,4 +1,6 @@
 /* Test program for ed521 scalar point multiplication
+ The following information are taken from http://safecurves.cr.yp.to/base.html
+ Curve Equation :: x^2+y^2 = 1-376014x^2y^2 where d=-376014
  Uses Bernstein et al.s point multiplication method from Curve41417 paper
  Cache safety thanks to ed25519
  Fully Tested and debugged

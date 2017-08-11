@@ -7,7 +7,7 @@
  We have replaced gmul() by TMV_product()
  We have added rdtscp() to measure the clock cycles count as suggested by Paoloni; http://www.intel.com.tr/content/dam/www/public/us/en/documents/white-papers/ia-32-ia-64-benchmark-code-execution-paper.pdf
  We have amended scr() and gsqr() according to modulus p
- gcc -Wall -O3 vb32_ws521.c -o vb32_ws521.exe */
+ gcc -Wall -m32 -O3 vb32_ws521.c -o vb32_ws521.exe */
 
 #include<stdio.h>
 #include<stdlib.h>

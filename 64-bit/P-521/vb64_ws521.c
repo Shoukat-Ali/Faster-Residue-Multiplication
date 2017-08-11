@@ -1,5 +1,5 @@
 /* Test program for ws521 scalar point multiplication
- This is NIST standard Weierstrass curve p-521
+ This is NIST standard (short) Weierstrass curve p-521
  Fully Tested and debugged
  Uses constant time method described by Bos et al. - http://eprint.iacr.org/2014/130
  Cache safety thanks to ed25519
